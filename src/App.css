@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 2rem;
+}
+
+.App-header {
+  margin-top: 2.5rem;
+  background-color: #555;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*========================MY CODE STARTS HERE========================*/
+
+.navbar { /*===============NAVBAR NAVBAR NAVBAR===============*/
+  background: rgba(34, 34, 34, 1);
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar * {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarHome {
+  float: left;
+  height: 2.5rem;
+}
+
+.navbarButtonList {
+  float: right;
+  height: 2.5rem;
+}
+
+.navbarLogo {
+  float: left;
+  max-height: 2.5rem;
+  max-width: 2.5rem;
+  padding: 0.2rem 0 0;
+  overflow: hidden;
+}
+
+.navbarButton {
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.navbarButton a {
+  display: block;
+  max-height: 2.5rem;
+  padding: 0.5835rem 1rem;
+}
+
+.navbarButton a p {
+  font-family: Calibri;
+}
+
+.navbarButton:hover {
+  background: #2C2C2C;
+}
+
